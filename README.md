@@ -1,6 +1,6 @@
 # Countdown App
 Set a countdown timer to a date. This is a small React exercise project built in the context of a Skillshare course https://skl.sh/2HbaGdj.
-
+Deployed using gh-pages.
 
 
 # Getting Started with Create React App
