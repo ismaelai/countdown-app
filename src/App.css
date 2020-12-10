@@ -1,38 +1,64 @@
 .App {
-  text-align: center;
+    text-align: center;
+    margin-top: 15%;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-title-small {
+    font-size: 3vmin;
+    margin-bottom: 2vmin;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-title-big {
+    height: 15vmin;
+    font-size: 10vmin;
+    width: fit-content;
+    padding: 0 0.5em;
+
+    margin: auto;
+    /*text-align: center;*/
+
+    border: 0.2vmin dashed white;
+    border-radius: 2vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Clock {
+    margin-top: 1.5vmin;
+    margin-bottom: 1.5vmin;
 }
 
-.App-link {
-  color: #61dafb;
+.Clock-text {
+    display: inline;
+    margin: 1.5vmin;
+    font-size: 3vmin;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Deadline-input {
+    font-size: 1.5vmin;
+    margin-right: 0.5vmin;
+    height: 4vmin;
+    width: 15vmin;
+}
+
+.Deadline-input-button {
+    height: 4vmin;
+    width: fit-content;
+    font-size: 1.3vmin;
+    vertical-align: bottom;
+}
+
+.Main-card {
+    opacity: .4;
+}
+
+.Input-alert {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 1.5vmin;
+    padding: 1.5vmin;
+    background-color: transparent;
+    color: #292929;
+    border-color: transparent;
 }
