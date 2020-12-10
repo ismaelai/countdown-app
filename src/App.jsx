@@ -12,7 +12,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      deadline: 'December 25, 2019',
+      deadline: 'Introduce a valid date',
     };
     this.displayDateInputError = false;
   }
@@ -47,13 +47,13 @@ class App extends Component {
             className="Deadline-input"
             onChange={(event) => (this.newDeadline = event.target.value)}
             placeholder="Enter date"
+            
           />
-          <button
-            className="Deadline-input-button"
-            onClick={() => this.changeDeadline()}
-          >
+          <Button
+            variant="outline-dark"
+            onClick={() => this.changeDeadline()}>
             Submit
-          </button>
+          </Button>
         </div>
         <div>
           <Alert
